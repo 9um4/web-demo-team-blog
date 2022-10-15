@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.skypack.dev/sanitize.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <title>Team Main Page</title>
+</head>
+
+<body>
+    <div id="wrap">
+        <header id="header-container" class="full">
+            <div id="header-content-container" class="content-wrapper">
+                <div id="header-left-container">
+                    <h1 id="header-title">Our Team</h1>
+                    <p id="header-desc" class="full">Make<br>Something Special</p>
+                </div>
+                <nav id="gnb-container" class="full">
+                    <ul id="gnb-list" class="full">
+                        <li class="gnb-item"><a href="./html/team.html" class="gnb-item-desc">our team</a></li>
+                        <li class="gnb-item"><a href="./html/member.html" class="gnb-item-desc">our members</a></li>
+                        <li class="gnb-item"><a href="./html/project.html" class="gnb-item-desc">our project</a></li>
+                        <li class="gnb-item"><a href="./html/news.html" class="gnb-item-desc">news</a></li>
+                        <li class="gnb-item"><a href="./html/community.html" class="gnb-item-desc">our community</a>
+                        </li>
+                        <li class="gnb-item"><a href="./html/blog.html" class="gnb-item-desc">team blog</a></li>
+                        <li class="gnb-item"><a href="./html/faq.html" class="gnb-item-desc">faq</a></li>
+                    </ul>
+                </nav>
+                <div id="gnb-toggle" class="mobile" onclick="toggleMenu();">
+                    <a href="#" id="gnb-toggle-btn">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                            <path d="M24 6h-24v-4h24v4zm0 4h-24v4h24v-4zm0 8h-24v4h24v-4z" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </header>
+        <nav id="gnb-toggle-container" class="mobile" onclick="toggleMenu();">
+            <ul id="gnb-toggle-list">
+                <li id="gnb-toggle-item"><a href="#" class="gnb-toggle-desc">our team</a></li>
+                <li id="gnb-toggle-item"><a href="#" class="gnb-toggle-desc">our members</a></li>
+                <li id="gnb-toggle-item"><a href="#" class="gnb-toggle-desc">our project</a></li>
+                <li id="gnb-toggle-item"><a href="#" class="gnb-toggle-desc">news</a></li>
+                <li id="gnb-toggle-item"><a href="#" class="gnb-toggle-desc">our community</a></li>
+                <li id="gnb-toggle-item"><a href="#" class="gnb-toggle-desc">team blog</a></li>
+                <li id="gnb-toggle-item"><a href="#" class="gnb-toggle-desc">faq</a></li>
+            </ul>
+        </nav>
+        <nav id="lnb-container">
+            <ul id="lnb-list" class="content-wrapper">
+                <li class="lnb-item"><a href="" class="lnb-item-desc">home</a></li>
+                <li class="lnb-item"><a href="" class="lnb-item-desc">core value</a></li>
+                <li class="lnb-item"><a href="" class="lnb-item-desc">current project</a></li>
+                <li class="lnb-item"><a href="" class="lnb-item-desc">join us</a></li>
+            </ul>
+        </nav>
+        <main class="main-container">
+            <section class="hero-container">
+
+            </section>
+        </main>
+    </div>
+    <script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script language="JavaScript" type="text/javascript" src="./js/script.js"></script>
+</body>
+
+</html>
